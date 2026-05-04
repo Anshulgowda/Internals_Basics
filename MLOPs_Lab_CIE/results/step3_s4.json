@@ -1,0 +1,17 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/predict",
+  "port": 8080,
+  "health_response": {
+    "status": "running",
+    "model": "RandomForest",
+    "version": "1.0"
+  },
+  "test_input": {
+    "slope_degrees": 31.5,
+    "rainfall_mm": 196.7,
+    "soil_depth_m": 3.3,
+    "vegetation_index": 0.5
+  },
+  "prediction": 41.0359
+}

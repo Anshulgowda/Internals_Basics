@@ -1,0 +1,23 @@
+{
+    "total_predictions": 53,
+    "mean_prediction": 56.89063396226417,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "slope_degrees",
+            "train_mean": 25.004,
+            "live_mean": 40.78110327666707,
+            "shift": 15.777103276667066,
+            "threshold": 10.67,
+            "status": "ALERT"
+        },
+        {
+            "feature": "rainfall_mm",
+            "train_mean": 266.124,
+            "live_mean": 487.3156986805962,
+            "shift": 221.19169868059618,
+            "threshold": 72.11,
+            "status": "ALERT"
+        }
+    ]
+}
